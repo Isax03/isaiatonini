@@ -27,6 +27,8 @@
   "dependencies": {
     "bits-ui": "^0.21.1",
     "clsx": "^2.1.0",
+    "lucide-svelte": "^0.364.0",
+    "svelte-material-icons": "^3.0.5",
     "tailwind-merge": "^2.2.2",
     "tailwind-variants": "^0.2.1"
   }
