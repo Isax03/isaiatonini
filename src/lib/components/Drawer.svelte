@@ -55,7 +55,7 @@
     export let rightOffset: string = "inset-y-0 end-0";
     export let topOffset: string = "inset-x-0 top-0";
     export let bottomOffset: string = "inset-x-0 bottom-0";
-    export let width: string = "w-80";
+    export let width: string = "w-64";
     export let backdrop: boolean = true;
     export let bgColor: string = "bg-gray-900";
     export let bgOpacity: string = "bg-opacity-75";
