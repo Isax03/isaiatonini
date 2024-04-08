@@ -1,7 +1,7 @@
 <div>
 	<a href="/" class="dark:text-white text-white flex items-center text-2xl gap-3" tabindex="-1">
 		<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-		viewBox="30 250 170 250" class="fill-white w-16">
+		viewBox="30 250 170 250" class="fill-white w-10 sm:w-16">
 		<g>
 			<path d="M205.1,349.6l-25.5,5.5l-4.7,1c-4.9-17.4-18-31.3-34.9-37.3l19.7-33.4l-27.4,31.3c-3.5-0.7-7.1-1.1-10.8-1.1
 				c-30.6,0-55.5,24.9-55.5,55.5c0,6.3,1,12.3,3,17.9l-14.1,16.1l18.3-6.8c7,12.3,18.5,21.7,32.3,25.9l-28,47.6l39.8-45.4
@@ -38,6 +38,6 @@
 			<path d="M540,397h-7.7v-37.3h7.7V397z"/>
 		</g> -->
 	</svg>
-	<span class="w-min text-center">Isaia Tonini</span>
+	<span class="w-min text-center text-lg">Isaia Tonini</span>
 	</a>
 </div>
