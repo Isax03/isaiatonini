@@ -5,14 +5,14 @@
 </script>
 
 
-<div class="flex gap-4 sm:h-full items-center justify-center mb-10 sm:m-0">
+<div class="flex gap-4 sm:h-full items-center justify-center mb-5 sm:m-0">
 	<a href="https://github.com/Isax03" target="_blank">
-		<Github class="dark:text-white text-white w-8 h-8" />
+		<Github class="text-primary-foreground w-8 h-8" />
 	</a>
 	<a href="https://linkedin.com/in/isaiatonini" target="_blank">
-		<Linkedin class="dark:text-white text-white w-8 h-8" />
+		<Linkedin class="text-primary-foreground w-8 h-8" />
 	</a>
 	<a href="https://www.instagram.com/isa.toni03/" target="_blank">
-		<Instagram class="dark:text-white text-white w-8 h-8" />
+		<Instagram class="text-primary-foreground w-8 h-8" />
 	</a>
 </div>

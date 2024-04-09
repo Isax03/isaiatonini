@@ -55,14 +55,14 @@
     export let rightOffset: string = "inset-y-0 end-0";
     export let topOffset: string = "inset-x-0 top-0";
     export let bottomOffset: string = "inset-x-0 bottom-0";
-    export let width: string = "w-64";
+    export let width: string = "w-72";
     export let backdrop: boolean = true;
     export let bgColor: string = "bg-gray-900";
     export let bgOpacity: string = "bg-opacity-75";
     export let placement: "left" | "right" | "top" | "bottom" = "left";
     export let id: string = "drawer-example";
     export let divClass: string =
-        "overflow-y-auto z-50 p-4 bg-zinc-800 bg-opacity-30 backdrop-blur flex flex-col justify-between";
+        "overflow-y-auto z-50 p-4 bg-zinc-800 bg-opacity-70 backdrop-blur flex flex-col justify-between";
     export let transitionParams: drawerTransitionParamTypes = {};
     export let transitionType: drawerTransitionTypes = "fly";
 
@@ -134,25 +134,3 @@
         <slot {hidden} />
     </div>
 {/if}
-
-<!--
-  @component
-  [Go to docs](https://flowbite-svelte.com/)
-  ## Props
-  @prop export let activateClickOutside: boolean = true;
-  @prop export let hidden: boolean = true;
-  @prop export let position: 'fixed' | 'absolute' = 'fixed';
-  @prop export let leftOffset: string = 'inset-y-0 start-0';
-  @prop export let rightOffset: string = 'inset-y-0 end-0';
-  @prop export let topOffset: string = 'inset-x-0 top-0';
-  @prop export let bottomOffset: string = 'inset-x-0 bottom-0';
-  @prop export let width: string = 'w-80';
-  @prop export let backdrop: boolean = true;
-  @prop export let bgColor: string = 'bg-gray-900';
-  @prop export let bgOpacity: string = 'bg-opacity-75';
-  @prop export let placement: 'left' | 'right' | 'top' | 'bottom' = 'left';
-  @prop export let id: string = 'drawer-example';
-  @prop export let divClass: string = 'overflow-y-auto z-50 p-4 bg-white dark:bg-gray-800';
-  @prop export let transitionParams: drawerTransitionParamTypes = {};
-  @prop export let transitionType: drawerTransitionTypes = 'fly';
-  -->
