@@ -18,7 +18,7 @@
 	<img src={imageSrc} alt="{projectName}" class="w-full aspect-video rounded-lg" />
 
 	<div class="w-full hidden sm:block text-left text-wrap">
-		<p class="text-primary-foreground text-sm line-clamp-3">{description}</p>
+		<p class="text-primary-foreground text-sm line-clamp-4">{description}</p>
 	</div>
 </div>
 

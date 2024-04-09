@@ -1,26 +1,26 @@
 [
 	{
 		"projectName": "Festa di Primavera",
-		"projectDescr": "Test1233",
+		"projectDescr": "Ticket sales and validation management for the annual \"Spring Festival\" of the C.U.S. of Trento",
 		"imgSrc": "/projects/fdp.svg",
 		"path": "/projects/festa"
 	},
 	{
 		"projectName": "U-Sushi",
-		"projectDescr": "Testina",
+		"projectDescr": "Project for the Software Engineering course at the UniTN. A Web App for the management of a sushi restaurant.",
 		"imgSrc": "/projects/u-sushi.svg",
 		"path": "/projects/u-sushi"
 	},
 	{
 		"projectName": "PTZ Vision",
-		"projectDescr": "Testina3456",
+		"projectDescr": "Project for the Mobile and Tablet Development course at the UniTN. An Android App for the remote control of PTZ cameras.",
 		"imgSrc": "/projects/u-sushi.svg",
 		"path": "/projects/ptz-vision",
 		"wip": true
 	},
 	{
 		"projectName": "Margoni's Website",
-		"projectDescr": "Testina",
+		"projectDescr": "Website for the company \"Margoni Ferruccio e Gabriele\"",
 		"imgSrc": "/projects/margoni.svg",
 		"path": "/projects/margoni",
 		"wip": true
