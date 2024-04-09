@@ -1,0 +1,28 @@
+[
+	{
+		"projectName": "Festa di Primavera",
+		"projectDescr": "Test1233",
+		"imgSrc": "/projects/fdp.svg",
+		"path": "/projects/festa"
+	},
+	{
+		"projectName": "U-Sushi",
+		"projectDescr": "Testina",
+		"imgSrc": "/projects/u-sushi.svg",
+		"path": "/projects/u-sushi"
+	},
+	{
+		"projectName": "PTZ Vision",
+		"projectDescr": "Testina3456",
+		"imgSrc": "/projects/u-sushi.svg",
+		"path": "/projects/ptz-vision",
+		"wip": true
+	},
+	{
+		"projectName": "Margoni's Website",
+		"projectDescr": "Testina",
+		"imgSrc": "/projects/margoni.svg",
+		"path": "/projects/margoni",
+		"wip": true
+	}
+]
