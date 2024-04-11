@@ -15,7 +15,7 @@
 </script>
 
 <nav class="flex bg-zinc-800 sticky top-0 w-full">
-	<div class="flex py-2 px-3 gap-4 justify-between w-full">
+	<div class="flex py-2 px-3 gap-4 justify-between items-center w-full">
 		<Logo />
 		<div class="w-full">
 			<div class="w-full h-full flex flex-row items-center justify-end px-6 sm:justify-between relative">
