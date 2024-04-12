@@ -5,9 +5,10 @@
 	export let projectName: string;
 	export let description: string;
 	export let wip: boolean = false;
+	export let path: string;
 </script>
 
-<div class="flex flex-col gap-4 mt-10 w-full sm:w-72 p-5 rounded-2xl shadowCard border-[3px] border-zinc-600">
+<a class="flex flex-col gap-4 mt-10 w-full sm:w-72 p-5 rounded-2xl shadowCard border-[3px] border-zinc-600 {wip ? 'cursor-default' : 'cursor-pointer'}" href={wip ? '' : path}>
 	<h3 class="text-base font-semibold text-primary-foreground flex gap-4">
 		{projectName}
 		{#if wip}
@@ -17,10 +18,10 @@
 
 	<img src={imageSrc} alt="{projectName}" class="w-full aspect-video rounded-lg" />
 
-	<div class="w-full hidden sm:block text-left text-wrap">
+	<div class="w-full text-left text-wrap">
 		<p class="text-primary-foreground text-sm line-clamp-4">{description}</p>
 	</div>
-</div>
+</a>
 
 <style>
 	.shadowCard {
