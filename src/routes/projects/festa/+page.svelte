@@ -12,5 +12,9 @@
 		<ProjectFeature title='Sales' description={salesDescr} imageSrc="/projects/festa/sell.png" />
 		<ProjectFeature title='Check-in' description={checkDescr} inverted imageSrc="/projects/festa/checkin.png" />
 		<ProjectFeature title='Realtime Dashboard' description={dashDescr} imageSrc="/projects/festa/dashboard.png"  />
+		<p class="text-base text-center">Frontend + Backend in <a href="https://kit.svelte.dev/" class="text-secondary-foreground">SvelteKit</a><br/>
+			Database & Authentication on <a href="https://firebase.google.com/" class="text-secondary-foreground">Firebase</a><br/>
+			Hosted on <a href="https://vercel.com/" class="text-secondary-foreground">Vercel</a>
+		</p>
 	</div>
 </div>

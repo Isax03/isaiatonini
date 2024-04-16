@@ -1,7 +1,7 @@
 <script lang="ts">
     import WipBadge from "./WipBadge.svelte";
 
-	export let imageSrc: string = "https://via.placeholder.com/160x90";
+	export let imageSrc: string;
 	export let projectName: string;
 	export let description: string;
 	export let wip: boolean = false;

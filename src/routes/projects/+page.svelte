@@ -7,7 +7,7 @@
     <h2 class="text-3xl font-semibold text-left w-full text-secondary-foreground">Projects</h2>
     <div class="grid justify-center gap-x-12 gap-y-0 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 self-center w-full sm:w-auto sm:flex sm:flex-wrap">
         {#each projects as project}
-            <ProjectListItem projectName={project.projectName} description={project.projectDescr} imageSrc={project.imgSrc} wip={project.wip} path={project.path}/>
+            <ProjectListItem projectName={project.projectName} description={project.projectDescr} imageSrc={project.imgSrc || "https://placehold.jp/30/aaaaaa/ffffff/320x180.png?text=PLACEHOLDER"} wip={project.wip} path={project.path}/>
         {/each}
     </div>
 </section>
