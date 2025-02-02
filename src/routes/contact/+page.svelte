@@ -7,6 +7,5 @@
         <!-- potete contattarmi tramite i canali -->
         <div>You can send me an email at <a href="mailto:isaia.tonini@gmail.com" class="text-secondary-foreground">isaia.tonini@gmail.com</a> or visit my <a href="mailto:isaia.tonini@gmail.com" class="text-secondary-foreground">Linkedin</a> profile.<br/></div>
         <div class="mt-2">You can also reach me through <a href="https://www.instagram.com/isa.toni03/" class="text-secondary-foreground">Instagram</a> or <a href="https://t.me/Isax73" class="text-secondary-foreground">Telegram</a>.<br/></div>
-        
     </div>
 </section>

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import ProjectFeature from '$lib/components/projects/ProjectFeature.svelte';
+    import Github from 'svelte-material-icons/Github.svelte';
 
 	let loginDescr = "Login form for the three profiles (Admin, Kitchen and Customers).\nUsed custom auth system developed in Go with JWT tokens";
 	let hosomakiDescr = "Menu page for the customers to order products. Divided in categories, products are displayed with their name, image and other details. They can be added to cart through the input field";
@@ -9,7 +10,12 @@
 </script>
 
 <div class="px-5 mt-12 mb-20 w-full items-center flex flex-col gap-12 text-primary-foreground">
-	<p class="text-xl">Project for the Software Engineering course at University of Trento</p>
+	<div class="flex items-center gap-4">
+		<p class="text-xl">Project for the Software Engineering course at University of Trento</p>
+		<a href="https://github.com/USushi-G18" target="_blank" rel="noopener noreferrer" class="text-zinc-400 hover:text-secondary-foreground transition-colors">
+			<Github size="1.5em"/>
+		</a>
+	</div>
 	<div class="flex flex-col gap-10">
 		<ProjectFeature title='Login' description={loginDescr} imageSrc="/projects/u-sushi/login.png" />
 		<ProjectFeature title='Menu' description={hosomakiDescr} inverted imageSrc="/projects/u-sushi/hosomaki.png" />

@@ -14,8 +14,8 @@
 	{
 		"projectName": "PTZ Vision",
 		"projectDescr": "Project for the Mobile and Tablet Development course at the UniTN. An Android App for the remote control of PTZ cameras.",
-		"path": "/projects/ptz-vision",
-		"wip": true
+		"imgSrc": "/projects/ptz-vision.svg",
+		"path": "/projects/ptz-vision"
 	},
 	{
 		"projectName": "Margoni",
